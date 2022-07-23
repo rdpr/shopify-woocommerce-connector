@@ -12,7 +12,9 @@
     "paths": {
       "interfaces": ["src/interfaces"],
       "@interfaces/*": ["src/interfaces/*"],
-      "@dataSource": ["src/data-source"]
+      "@dataSource": ["src/data-source"],
+      "@models/*": ["src/models/*"],
+      "@models": ["src/models"]
     },
     "esModuleInterop": true,
     "experimentalDecorators": true,
