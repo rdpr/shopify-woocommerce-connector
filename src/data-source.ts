@@ -3,7 +3,7 @@ import {DataSource, DataSourceOptions} from "typeorm";
 import {SnakeNamingStrategy} from "typeorm-naming-strategies";
 
 import Database from "better-sqlite3";
-const dbPath = process.cwd() + "/data/shopify-integration.db";
+const dbPath = process.cwd() + "/data/shopify-integration.sqlite3";
 const dataSourceOptions: DataSourceOptions = {
     type: "better-sqlite3",
     database: dbPath,
