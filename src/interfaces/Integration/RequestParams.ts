@@ -32,7 +32,7 @@ interface DocumentData {
     CustomerSearchType: string;
     CustomerCode: string;
     ReservationStoreShortDigit: string;
-    OrderStatus: "99"|"0"|"1"; // Pending/Confirmed/Canceled
+    OrderStatus: "99"|"0"|"1"; // Pending|Confirmed|Canceled
     CustomerData?: CustomerData;
     Lines: LineData[];
     PaymentMethods: PaymentData[];
@@ -99,6 +99,7 @@ interface EntityAddressData extends Address {
 }
 
 export interface ChangeOnlineOrderStatus {
-
+    documentNumber: string;
+    Status: 0|1; // Confirmed|Canceled
 }
 
