@@ -1,17 +1,5 @@
-import Joi from "joi";
-
-const ChangeOnlineOrder = Joi.object({
-    Success: Joi.boolean(),
-    Message: Joi.string(),
-    ErrorCode: Joi.number().integer(),
-    Result: Joi.any() // Will add all result schemas in separate files
-});
-
-const Response = {
-    ChangeOnlineOrder
-}
+import {Integration} from "@models/schemas/Integration";
 
 export const Schemas = {
-    Response
+    Integration
 }
-

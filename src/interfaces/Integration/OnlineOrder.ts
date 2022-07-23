@@ -8,7 +8,6 @@ export interface DocumentInfoData {
     DocumentTotal: number;
     IsReturn: boolean;
     //Vouchers: IssuedVoucherInfo[]; // Missing interface
-    Vouchers: VoucherData; // Placeholder
     Lines: DocumentLineInfoData[];
     CustomerCode: string;
     ExternalDocumentNumber: string;
@@ -26,19 +25,5 @@ interface DocumentLineInfoData {
     UnitPrice: number;
     VatRate: number;
     Barcode: string;
-}
-
-interface VoucherData {
-    VoucherID: string;
-    Number: string;
-    IssueDate: Date;
-    ExpirationDate: Date;
-    StartDate: Date;
-    Value: number;
-    Type: 1|2; // Value|Percentage
-    CustomerCode: string;
-    Consumed: boolean;
-    ConsumedDate: Date;
-    ConsumedDocNumber: string;
 }
 
