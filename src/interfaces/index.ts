@@ -1,1 +1,1 @@
-export {RequestParams, Response} from "@interfaces/Integration";
+export * as Integration from "@interfaces/Integration";
