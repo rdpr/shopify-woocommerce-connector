@@ -11,7 +11,8 @@
     "baseUrl": "./",
     "paths": {
       "interfaces/": ["src/interfaces"],
-      "@interfaces/*": ["src/interfaces/*"]
+      "@interfaces/*": ["src/interfaces/*"],
+      "@dataSource": ["src/data-source"]
     },
     "esModuleInterop": true,
     "experimentalDecorators": true,
