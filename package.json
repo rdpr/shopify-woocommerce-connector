@@ -1,0 +1,33 @@
+{
+  "name": "maxi-shopify-integration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run build:live",
+    "build": "rm -rf ./build && tsc -p .",
+    "build:live": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' -r tsconfig-paths/register src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdpr/maxi-shopify-integration.git"
+  },
+  "author": "Ruben Roberto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdpr/maxi-shopify-integration/issues"
+  },
+  "homepage": "https://github.com/rdpr/maxi-shopify-integration#readme",
+  "dependencies": {
+    "@shopify/shopify-api": "^4.2.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.19",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.0.0",
+    "typescript": "^4.7.4"
+  }
+}
