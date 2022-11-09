@@ -31,6 +31,7 @@
   },
   "devDependencies": {
     "@types/express": "^4.17.13",
+    "@woocommerce/api": "^0.2.0",
     "nodemon": "^2.0.19",
     "ts-node": "^10.9.1",
     "tsconfig-paths": "^4.0.0",
