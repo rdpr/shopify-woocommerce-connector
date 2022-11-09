@@ -1,5 +1,5 @@
 {
-  "name": "maxi-retail-connector-backend",
+  "name": "shopify-woocommerce-connector-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rdpr/maxi-retail-connector-backend.git"
+    "url": "git+https://github.com/rdpr/shopify-woocommerce-connector.git"
   },
   "author": "Ruben Roberto",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rdpr/maxi-retail-connector-backend/issues"
+    "url": "https://github.com/rdpr/shopify-woocommerce-connector/issues"
   },
-  "homepage": "https://github.com/rdpr/maxi-retail-connector-backend#readme",
+  "homepage": "https://github.com/rdpr/shopify-woocommerce-connector#readme",
   "dependencies": {
     "@shopify/shopify-api": "^4.2.0",
     "@types/better-sqlite3": "^7.5.0",
